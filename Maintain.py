@@ -23,4 +23,4 @@ height = input("Enter height(unit of measurement: cm ): ");
 age =  input("Enter age(years): ");
 result = formula(gender, float(weight), float(height), int(age));
 
-print(str(result), "calories to maintain current weight");
+print("Eat", float(result), "calorie's a day to maintain current weight.");
